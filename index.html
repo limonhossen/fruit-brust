@@ -63,14 +63,14 @@
           </ul>
         </div>
         <div class="navbar-end ">
-            <div class="flex-none gap-2">
+            <div class="flex-none gap-2 hidden md:block lg:block">
                 <div class="form-control ">
                   <input type="text" placeholder="Search here" class="input input-bordered w-24 md:w-auto" />
                 </div>
             
           </div>
     
-            <button class="btn btn-ghost btn-circle">
+            <button class="btn btn-ghost btn-circle hidden md:block lg:block">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
             </button>
         
@@ -149,7 +149,7 @@
     </div>
   </div>
   <div>
-    <div class=" h-64 flex  justify-between items-center  drop-shadow-lg bg-white  px-40 -mt-32">
+    <div class=" h-64 flex justify-between items-center  drop-shadow-lg bg-white  px-40 -mt-32">
     
         <div >
             <img src="./images/fruit1.png">
@@ -211,6 +211,192 @@
             </div>
           </div>
         </section>
+        <section class="my-24">
+          <div class="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+              <!-- first card -->
+              <div class="card bg-base-100 p-9 border border-gray-400">
+                  <figure><img class="w-36" src="/images/fruit6.png" alt="Shoes" /></figure>
+                  <div class="card-body">
+                      <div class="text-center space-y-4 mt-4">
+                        <h4 class="text-sm font-semibold text-info text-black">12.90$ - 18.85$</h4>
+                        <p>Apples</p>
+                      </div>
+                      <div class="rating rating-lg rating-half">
+                        <input type="radio" name="rating-10" class="rating-hidden" />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" checked />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                      </div>
+                      <div class="drawer">
+                        <input id="my-drawer" type="checkbox" class="drawer-toggle" />
+                        <div class="drawer-content">
+                          <!-- Page content here -->
+                          <label for="my-drawer" class=" flex justify-center btn bg-orange-500 text-white drawer-button">Detailes</label>
+                        </div> 
+                        <div class="drawer-side">
+                          <label for="my-drawer" class="drawer-overlay"></label>
+                          <ul class="menu p-4 w-80 h-full bg-base-200 text-base-content">
+                            <!-- Sidebar content here -->
+                            <div class="card bg-base-100 p-9 border border-gray-400">
+                              <figure><img class="w-36" src="/images/fruit6.png" alt="Shoes" /></figure>
+                              <div class="card-body">
+                                <div class="text-center space-y-4 mt-4">
+                                  <h4 class="text-sm font-semibold text-info text-black">Apples</h4>
+                                  <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                </div>
+                                  <div class="rating rating-lg rating-half">
+                                    <input type="radio" name="rating-10" class="rating-hidden" />
+                                    <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                                    <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                                    <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" checked />
+                                    <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                                    <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                                    <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                                    <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                                    <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                                    <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                                    <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                                  </div>
+                                  <button class="btn btn-info">close</button>
+
+                                  <button class="btn btn-error">Buy now</button>
+                              </div>
+                            </div>
+                      
+                            
+                          </ul>
+                        </div>
+                      </div>
+                  
+                  </div>
+                </div>
+              <!-- second card-->
+              <div class="card bg-base-100 p-9 border border-gray-400">
+                  <figure><img class="w-36" src="/images/fruit7.png" alt="Shoes" /></figure>
+                  <div class="card-body">
+                    <div class="text-center space-y-4 mt-4">
+                      <h4 class="text-sm font-semibold text-info text-black">12.90$ - 18.85$</h4>
+                      <p>Orange</p>
+                    </div>
+                      <div class="rating rating-lg rating-half">
+                        <input type="radio" name="rating-10" class="rating-hidden" />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" checked />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                      </div>
+                      <button class="btn bg-orange-500 text-white">Details
+                        
+                      </button>
+                
+                  </div>
+                </div>
+              <!-- third card -->
+              <div class="card bg-base-100 p-9 border border-gray-400">
+                  <figure><img class="w-36" src="/images/fruit8.png" alt="Shoes" /></figure>
+                  <div class="card-body">
+                    <div class="text-center space-y-4 mt-4">
+                      <h4 class="text-sm font-semibold text-info text-black">12.90$ - 18.85$</h4>
+                      <p>Red Dragon</p>
+                    </div>
+                      <div class="rating rating-lg rating-half">
+                        <input type="radio" name="rating-10" class="rating-hidden" />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" checked />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                      </div>
+                      
+                     <button class="btn bg-orange-500 text-white">Details
+                        
+                      </button>
+                  </div>
+                </div>
+                <!--fourth card-->
+                <div class="card bg-base-100 p-9 border border-gray-400">
+                  <figure><img class="w-36" src="/images/fruit9.png" alt="Shoes" /></figure>
+                  <div class="card-body">
+                    <div class="text-center space-y-4 mt-4">
+                      <h4 class="text-sm font-semibold text-info text-black">12.90$ - 18.85$</h4>
+                      <p>Banana</p>
+                    </div>
+                      <div class="rating rating-lg rating-half">
+                        <input type="radio" name="rating-10" class="rating-hidden" />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" checked />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                      </div>
+                      <div class="drawer drawer-end">
+                        <input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
+                        <div class="drawer-content">
+                          <!-- Page content here -->
+                          <label for="my-drawer-4" class=" flex justify-center drawer-button btn bg-orange-500 text-white">Detailes</label>
+                        </div> 
+                        <div class="drawer-side">
+                          <label for="my-drawer-4" class="drawer-overlay"></label>
+                          <ul class="menu p-4 w-80 h-full bg-base-200 text-base-content">
+                            <!-- Sidebar content here -->
+                            <div class="card bg-base-100 p-9 border border-gray-400">
+                              <figure><img class="w-36" src="/images/fruit9.png" alt="Shoes" /></figure>
+                              <div class="card-body">
+                                <div class="text-center space-y-4 mt-4">
+                                  <h4 class="text-sm font-semibold text-info text-black">Banana</h4>
+                                  <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                </div>
+                                  <div class="rating rating-lg rating-half">
+                                    <input type="radio" name="rating-10" class="rating-hidden" />
+                                    <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                                    <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                                    <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" checked />
+                                    <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                                    <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                                    <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                                    <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                                    <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                                    <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                                    <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                                  </div>
+                                
+                              </div>
+                            </div>
+                            <button class="btn btn-info">close</button>
+
+<button class="btn btn-error">Buy now</button>
+                            
+                          </ul>
+                        </div>
+                      </div>
+                    
+                  </div>
+                </div>
+          </div>
+      </section>
 
     </main>
 
